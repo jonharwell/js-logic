@@ -151,8 +151,7 @@ function isEqual(first, second){
     }
   }
 
-
-console.log(isEqual('hi', 'hi'));
+console.log("6. isEqual " + isEqual('hi', 'hi'));
 
 /*
  * #7
@@ -167,6 +166,15 @@ console.log(isEqual('hi', 'hi'));
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if(first === second){
+    return 'Opposites do attract.';
+  }else{
+    return "Cause it's like you're my mirror."
+  }
+}
+
+console.log("7. notEqual " + notEqual('Jon', 'Jon'));
 
 /*
  * #8
