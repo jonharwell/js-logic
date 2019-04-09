@@ -127,7 +127,7 @@ function bigBird(word){
     return 'ERROR';
   }
 }
-console.log("5. bigBird " + bigBird("rath"));
+console.log("5. bigBird " + bigBird("dog"));
 
 
 /*
@@ -143,6 +143,16 @@ console.log("5. bigBird " + bigBird("rath"));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if(first === second){
+    return 'You look mahvelous!'
+    }else{
+      return "I don't know who you are anymore."
+    }
+  }
+
+
+console.log(isEqual('hi', 'hi'));
 
 /*
  * #7
