@@ -363,6 +363,7 @@ for (var i = 0; i<toyotaModels.length; i++){
    console.log("Toyota " + toyotaModels[i]);
 }
 
+ 
 
 /* 
  * #15
@@ -373,6 +374,11 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 4"
  * "Player: 5"
 */
+
+for (var i = 1; i<6; i++){
+  console.log('Player: ' + i);
+}
+
 
 
 /* 
